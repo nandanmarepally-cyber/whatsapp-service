@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WBsaver Service</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            background: #f5f7fb;
+            color: #111827;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #16a34a, #059669);
+            color: white;
+            padding: 2.5rem 1.5rem;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.2rem;
+            margin-bottom: 0.75rem;
+        }
+
+        header p {
+            font-size: 1rem;
+            max-width: 600px;
+            margin: 0 auto;
+            opacity: 0.95;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 2rem auto 3rem;
+            padding: 0 1.5rem;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 1.75rem;
+            box-shadow: 0 10px 30px rgba(15, 23, 42, 0.06);
+            margin-bottom: 1.5rem;
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            margin-bottom: 0.75rem;
+            color: #111827;
+        }
+
+        ul {
+            margin-left: 1.1rem;
+            margin-top: 0.5rem;
+        }
+
+        li {
+            margin-bottom: 0.4rem;
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 0.25rem 0.7rem;
+            border-radius: 999px;
+            background: #ecfdf5;
+            color: #15803d;
+            font-size: 0.75rem;
+            font-weight: 600;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            margin-bottom: 0.75rem;
+        }
+
+        .contact p {
+            margin-bottom: 0.35rem;
+        }
+
+        a {
+            color: #16a34a;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 0.8rem;
+            color: #6b7280;
+            padding: 1.5rem 1rem 2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>WBsaver Service</h1>
+        <p>
+            Easily save WhatsApp photos, videos, and files with one click.
+            WBsaver Service helps you keep your important WhatsApp media safe and organized.
+        </p>
+    </header>
+
+    <main>
+        <section class="card">
+            <div class="tag">About</div>
+            <h2>What is WBsaver Service?</h2>
+            <p>
+                WBsaver Service is a utility service focused on simplifying the way you store and manage WhatsApp media.
+                It is designed for individuals and businesses who need a reliable way to keep important WhatsApp
+                images, videos, and documents backed up and easy to access.
+            </p>
+        </section>
+
+        <section class="card">
+            <div class="tag">Features</div>
+            <h2>Key Features</h2>
+            <ul>
+                <li>Save WhatsApp photos, videos, and documents in an organized way.</li>
+                <li>Keep a backup of important media for future reference.</li>
+                <li>Simple and user-friendly flow suitable for all types of users.</li>
+                <li>Ideal for personal use, small businesses, and service providers.</li>
+            </ul>
+        </section>
+
+        <section class="card contact">
+            <div class="tag">Contact</div>
+            <h2>Contact & Support</h2>
+            <p><strong>Business:</strong> WBsaver Service</p>
+            <p><strong>Email:</strong> <a href="mailto:nandanvmarepally@gmail.com">nandanvmarepally@gmail.com</a></p>
+            <p><strong>Location:</strong> Hyderabad, Telangana, India</p>
+        </section>
+    </main>
+
+    <footer>
+        © <span id="year"></span> WBsaver Service. All rights reserved.
+        <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+    </footer>
+</body>
+
+</html>
